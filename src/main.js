@@ -13,6 +13,8 @@ import Animate from 'animate.css'
 //swiper
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import './assets/swiper-3.4.2.min.css'
+//icon
+import './assets/fonts/iconfont.css'
 Vue.use(VueAwesomeSwiper)
 Vue.config.productionTip = false
 
