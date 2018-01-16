@@ -12,7 +12,7 @@ export default {
 </script>
 
 <style>
-body{background-color: transparent;}
+body{background: #F5F5F5 url(../static/pattern.png);}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'PingFang SC','Helvetica Neue',Helvetica,'Hiragino Sans GB',STHeitiSC-Light,'Microsoft YaHei',Arial,sans-serif;
 }
