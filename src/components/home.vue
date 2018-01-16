@@ -12,7 +12,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                  <a class="navbar-brand" href="#"><img class="logo-index" src="" alt="tanglongxiang.org-Logo"></a>
+                  <a class="navbar-brand" href="#">
+                    tanglongxiangCassiel
+                  </a>
               </div>
 
               <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
@@ -145,6 +147,9 @@ export default {
     box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1), 0 1px rgba(0,0,0,0.1);
     border-radius: 5px;
   }
+  .navbar-brand{color: black;font-family: 'STXingkai', sans-serif;font-size: 1.8em;font-weight: border}
+  .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{color: red}
+  .navbar-toggle{background-color: black;}
   .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {color: #E0716C;}
   .nav_ul li a{font: normal 130% 'STXingkai', sans-serif;color: #222;}
    .article_stl{padding: 1em 0 2em;border-bottom: 1px solid #ddd;box-sizing: border-box;}
@@ -216,7 +221,7 @@ export default {
   }
   .per_head .section p.show{
     text-align: left;
-    border-bottom: 2px solid hsla(0,0%,55%,.5);
+    border-bottom: 2px solid #D4D4D4;
     padding: 0 10px;
     color: #8b8b8b;
     font-size: 14px;
