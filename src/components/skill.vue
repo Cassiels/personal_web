@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <p style="color:white;font-size: 36px">{{ msg }}</p>
+    <p style="color:#000;font-size: 36px">{{ msg }}</p>
   </div>
 </template>
 
@@ -9,7 +9,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'FAQ页面'
+      msg: '技能页面'
     }
   }
 }
